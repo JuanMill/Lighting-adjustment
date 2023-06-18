@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #151515;
+  background: url(./assets/background.png);
   height: 100vh;
+}
+h1{
+  color: white;
 }
 #all {
   border: 1px solid red;
