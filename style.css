@@ -4,17 +4,32 @@
   box-sizing: border-box;
 }
 body {
-  background: color white;
+  background: color rgb(254, 236, 224);
   height: 100vh;
 }
-h1 {
-  color: white;
-}
+
 #all {
   border: 1px solid red;
-  width: 100%;
   max-width: 100%;
   height: 100%;
   margin: auto;
-  padding: 0 5px;
+  padding: auto;
+}
+
+#box1 {
+  max-height: 50%;
+  height: 100%;
+}
+#milho {
+  /*background: url(./assets/milho.png);*/
+  border: 1px solid red;
+  margin: 112px 155px 56px 155px;
+  max-height: 50%;
+  height: 293px;
+  max-width: 100%;
+}
+#box2 {
+  background-color: rgb(155, 102, 71);
+  max-height: 50%;
+  height: 100%;
 }
